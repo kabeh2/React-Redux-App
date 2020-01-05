@@ -1,0 +1,5 @@
+export const FETCH_DATA_REQUEST = "FETCH_DATA_REQUEST";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
+export const FETCH_DATA_ERROR = "FETCH_DATA_ERROR";
+export const PREV_PAGE = "PREV_PAGE";
+export const NEXT_PAGE = "NEXT_PAGE";

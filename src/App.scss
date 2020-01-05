@@ -1,0 +1,16 @@
+.App {
+  // text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 48px auto;
+
+  .coin-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+    // background-color: limegreen;
+  }
+}

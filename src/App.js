@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import CardList from "./components/CardList";
+import Pagination from "./components/Pagination";
+import Typography from "@material-ui/core/Typography";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography variant="h3" gutterBottom color="primary" align="center">
+        List of Ranked Cryptocurrencies
+      </Typography>
+      <Typography
+        variant="subtitle1"
+        gutterBottom
+        color="secondary"
+        align="center"
+      >
+        React - Async Redux Practice with Coin Gecko API & Material UI Styling
+      </Typography>
+      <CardList />
+      <Pagination />
     </div>
   );
 }
