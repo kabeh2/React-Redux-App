@@ -1,4 +1,4 @@
-### View My Completed Work: https://kabeh2.github.io/react-redux-app/
+### View My Completed Work: https://kabeh2.github.io/React-Redux-App/
 
 # Module Project: Async Redux - React Redux App
 
