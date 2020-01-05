@@ -2,7 +2,7 @@
   "name": "react-redux-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kabeh2.github.io/react-redux-app/",
+  "homepage": "https://kabeh2.github.io/React-Redux-App/",
   "dependencies": {
     "@material-ui/core": "^4.8.2",
     "@material-ui/icons": "^4.5.1",
